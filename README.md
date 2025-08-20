@@ -25,7 +25,7 @@ Project structure:
 - styles.css
 - script.js
 
-Live Demo : view here --> ()
+Live Demo : view here --> (https://d00055a.github.io/Interactive_webpage/)
 
 License
 © 2025 Daniel Dedja. All rights reserved.
