@@ -7,14 +7,22 @@ let cityInput = document.getElementById("city");
 let genderInputs = document.getElementsByName("gender");
 let aboutInput = document.getElementById("about");
 
+// Modal elements
+let modal = document.getElementById("modal");
+let modalMessage = document.getElementById("modal-message");
+let closeModalBtn = document.getElementById("close-modal");
+
+// Event listener for form
 form.addEventListener("submit", function(e) {
     e.preventDefault(); 
 
     if (validateForm()) {
-        showModal(); 
+        showModal("The form was successfully completed!");
+        form.reset();
     }
 });
 
+// Function for form validation
 function validateForm() {
     let isValid = true;
     let messages = [];
@@ -24,7 +32,8 @@ function validateForm() {
         isValid = false;
     }
 
-    if (!emailInput.value.includes("@")) {
+    const emailPattern = /^[^@\s]+@[^@\s]+\.[^@\s]+$/; 
+    if (!emailPattern.test(emailInput.value)) {
         messages.push("Email is not valid!");
         isValid = false;
     }
@@ -53,22 +62,24 @@ function validateForm() {
         }
     }
     if (!genderSelected) {
-        messages.push("Please select an option!");
+        messages.push("Please select a gender option!");
         isValid = false;
     }
 
     if (!isValid) {
-        alert(messages.join("\n"));
+        showModal(messages.join("<br>")); 
     }
 
     return isValid;
 }
 
-
-function showModal() {
-    alert("The form was successfully completed!");
-    form.reset();
+// Modal functions
+function showModal(message) {
+    modalMessage.innerHTML = message;
+    modal.classList.remove("hidden");
 }
 
-
+closeModalBtn.addEventListener("click", () => {
+    modal.classList.add("hidden");
+});
 
