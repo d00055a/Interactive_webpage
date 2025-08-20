@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles2.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+        <title>Interactive webpage</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>HTML page form</h1>
+        </header>
+
+        <p id="description">Fill in the form below</p>
+
+        <section id="container" class="form-container">
+
+            <form id="form">
+
+                <label for="full-name">Full name <input type="text" name="full-name" id="full-name" required/> </label>
+
+                <label for="email">Email <input type="email" name="email" id="email" required/> </label>
+
+                <label for="password">Password <input type="password" name="password" id="password" minlength=8 required/> </label>
+
+                <label for="age">Age <input type="number" name="age" id="age" min=16 max=110 required/> </label>
+
+                <label for="city">City 
+                  <select id="city" name="city" required>
+                     <option value="">(Select your hometown)</option>
+                     <option value="Tirana">Tirana</option>
+                     <option value="Elbasan">Elbasan</option>
+                     <option value="Durres">Durres</option>
+                     <option value="Vlora">Vlora</option>
+                   </select></label>
+
+                <label id="gender"> Gender
+                    <label for="male"> <input type="radio" value="Male" name="gender" id="male">Male </label>
+                    <label for="female"> <input type="radio" value="Female" name="gender" id="female">Female </label>
+                    <label for="pr-not-say"> <input type="radio" value="Pr-not-say" name="gender" id="pr-not-say"/>Prefer not to say</label>
+                </label>
+
+                <label for="about">Tell us more about yourself (optional) <textarea id="about" name="about" cols="24" rows="5"></textarea></label>
+
+                <input type="submit" value="Submit"/>
+
+            </form>
+        </section>
+
+         <footer>
+               <p>&copy; 2025 Daniel Dedja. All rights reserved.</p>
+         </footer>
+
+         <script src="script.js"></script>
+
+    </body>
+</html>
