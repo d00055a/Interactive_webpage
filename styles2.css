@@ -26,7 +26,6 @@ header{
 #container {
   margin: 0 auto;
   box-sizing: border-box;
-  width: 100%;
   max-width: 460px;
   margin: 0 auto;
   margin-bottom: 5rem;
@@ -36,7 +35,6 @@ header{
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   animation: fadeIn 1s ease-in;
 }
-
 
 .form-group {
   display: flex;
@@ -93,6 +91,47 @@ input[type="submit"]:hover{
     color: rgb(74, 7, 230);
 
 }
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.modal-content button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #230686;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background: #4529c6;
+}
+
 
 footer {
   text-align: center;
