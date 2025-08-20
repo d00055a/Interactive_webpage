@@ -19,6 +19,7 @@ Technologies used:
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
+- Git, GitHub, GitHub Pages
 
 Project structure:
 - index.html 
