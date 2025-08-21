@@ -17,7 +17,7 @@ form.addEventListener("submit", function(e) {
     e.preventDefault(); 
 
     if (validateForm()) {
-        showModal("The form was successfully completed!");
+        showModal("Form submitted successfully!");
         form.reset();
     }
 });
@@ -82,4 +82,5 @@ function showModal(message) {
 closeModalBtn.addEventListener("click", () => {
     modal.classList.add("hidden");
 });
+
 
