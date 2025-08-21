@@ -1,3 +1,4 @@
+// Form's data collected and saved in variables
 let form = document.getElementById("form");
 let nameInput = document.getElementById("full-name");
 let emailInput = document.getElementById("email");
@@ -82,5 +83,6 @@ function showModal(message) {
 closeModalBtn.addEventListener("click", () => {
     modal.classList.add("hidden");
 });
+
 
 
