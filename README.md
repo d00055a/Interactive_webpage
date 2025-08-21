@@ -23,7 +23,7 @@ Technologies used:
 
 Project structure:
 - index.html 
-- styles.css
+- styles2.css
 - script.js
 
 Live Demo : view here --> (https://d00055a.github.io/Interactive_webpage/)
