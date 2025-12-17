@@ -76,7 +76,3 @@ This project was built to practice and demonstrate:
 - Event listeners and user interaction
 
 - Clean UI structure for web forms
-
-<br/><br/>
-
-License © 2025 Daniel Dedja. All rights reserved.
