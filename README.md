@@ -9,30 +9,30 @@ This project was developed as part of my internship tasks at Codveda Technologie
 
 - Interactive form with multiple input types:
 
-  - Full name
+ - Full name
 
-  - Email
+ - Email
 
-  - Password
+ - Password
 
-  - Age
+ - Age
 
-  - City (dropdown)
+ - City (dropdown)
 
-  - Gender (radio buttons)
+ - Gender (radio buttons)
 
-  - About (textarea)
+ - About (textarea)
 
 
 - Client-side validation using JavaScript:
 
-  - Required field checks
+ - Required field checks
 
-  - Email format validation
+ - Email format validation
 
-  - Password length validation
+ - Password length validation
 
-  - Age range validation
+ - Age range validation
 
 - User feedback via alert on successful submission
 
