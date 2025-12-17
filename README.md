@@ -61,7 +61,7 @@ script.js
 
 ## Live Demo 
 
-View here --> (https://d00055a.github.io/Interactive_webpage/)
+View here --> (https://d00055a.github.io/interactive-webpage-form/)
 
 ## Purpose
 
