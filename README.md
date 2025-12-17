@@ -63,6 +63,20 @@ script.js
 
 View here --> (https://d00055a.github.io/Interactive_webpage/)
 
+## Purpose
+
+This project was built to practice and demonstrate:
+
+- JavaScript form handling
+
+- Client-side validation logic
+
+- DOM manipulation
+
+- Event listeners and user interaction
+
+- Clean UI structure for web forms
+
 <br/><br/>
 
 License © 2025 Daniel Dedja. All rights reserved.
